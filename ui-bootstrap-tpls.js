@@ -7101,11 +7101,11 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap
        * shift + tab is pressed to bring focus to the previous element
        * then clear the results
        */
-      if (scope.activeIdx === -1 && shouldSelect || evt.which === 9 && !!evt.shiftKey) {
-        resetMatches();
-        scope.$digest();
-        return;
-      }
+//       if (scope.activeIdx === -1 && shouldSelect || evt.which === 9 && !!evt.shiftKey) {
+//         resetMatches();
+//         scope.$digest();
+//         return;
+//       }
 
       evt.preventDefault();
       var target;
